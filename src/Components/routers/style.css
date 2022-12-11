@@ -1,0 +1,165 @@
+/*Album*/
+
+.page-album {
+  position: absolute;
+  top: 12%;
+  left: 8%;
+  font-size: 25px;
+  color: rgba(3, 95, 29, 0.921);
+}
+
+.album-name {
+  font-size: 30px;
+  color: rgba(3, 95, 29, 0.921);
+  text-decoration: none;
+}
+
+.creator-name {
+  font-size: 25px;
+  color: rgba(121, 25, 120, 0.996);
+  text-decoration: none;
+}
+
+.photos {
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  transition: 1s;
+}
+
+.photos:hover {
+  transform: scale(2);
+}
+
+/*Albums*/
+
+.page-albums {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  font-size: 20px;
+  color: rgba(6, 79, 27, 0.871);
+}
+.page-albums :hover {
+  color: rgb(202, 105, 194);
+}
+.img-photo {
+  width: 15px;
+  height: 15px;
+}
+
+/*Layout*/
+
+.header-layout {
+  position: absolute;
+  top: 3.5%;
+  right: 14%;
+}
+#link {
+  font-size: 35px;
+  text-decoration: none;
+}
+.link-inactive {
+  color: rgb(25, 59, 25);
+}
+.link-active {
+  color: rgb(49, 147, 49);
+}
+hr {
+  position: absolute;
+  border: 0;
+  clear: both;
+  width: 80%;
+  background-color: #000000;
+  height: 1.5px;
+  bottom: 45px;
+  left: 10%;
+  right: 10%;
+}
+.creater {
+  position: absolute;
+  bottom: 15px;
+  left: 11%;
+  font-size: 20px;
+  color: rgb(43, 11, 43);
+}
+.bsu {
+  position: absolute;
+  bottom: 15px;
+  right: 11%;
+  font-size: 20px;
+  color: rgb(43, 11, 31);
+}
+
+.footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 10%;
+  width: 100%;
+}
+
+/*Mistake*/
+
+.page-error {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+  font-size: 25px;
+}
+
+.first-line {
+  text-align: center;
+  font-size: 67px;
+  color: rgb(89, 165, 34);
+}
+
+.second-line {
+  text-align: center;
+  font-size: 45px;
+  color: rgb(89, 165, 34);
+}
+
+.third-line {
+  display: "flex";
+  text-align: center;
+  font-size: 35px;
+  color: rgb(89, 165, 34);
+}
+/*user*/
+.page-user {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  font-size: 20px;
+  color: rgb(185, 170, 184);
+}
+.name-user {
+  font-size: 30px;
+  color: rgb(135, 16, 123);
+}
+.album-user {
+  margin-top: 6%;
+  font-size: 27px;
+  color: rgb(16, 135, 36);
+}
+.albums-user {
+  font-size: 20px;
+  color: rgba(6, 79, 27, 0.871);
+  text-decoration: none;
+}
+.albums-user :hover {
+  color: rgb(202, 105, 194);
+}
+
+/*users*/
+
+.page-users {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  font-size: 25px;
+}
+.page-users :hover {
+  color: rgb(202, 105, 194);
+}
